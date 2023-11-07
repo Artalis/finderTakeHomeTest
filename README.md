@@ -1,9 +1,9 @@
 ## How to run?
 
-1. Enter folder "finder" and run the app
+1. install dependencies and run the app
 
 ```sh
-cd finder
+npm install
 npm start
 ```
 
