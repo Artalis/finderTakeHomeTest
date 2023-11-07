@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src", 
+      "module": "ESNext",
+      "target": "ES5",
+      "moduleResolution": "node", 
+      "allowJs": true,
+      "jsx": "react-jsx",
+      "noEmit": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx"],
+    "exclude": ["node_modules"]
+  }
+  
