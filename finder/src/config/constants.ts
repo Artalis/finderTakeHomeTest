@@ -1,6 +1,6 @@
-import { TileProps } from "components/HomePageTile";
+import { TileProps } from 'components/HomePageTile';
 
-import { icons } from "./icons";
+import { icons } from './icons';
 
 export const minTileWidth = 146;
 export const gutter = 20;

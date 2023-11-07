@@ -1,10 +1,5 @@
-import { HomePageExpandableSection } from "./HomePageExpandableSection";
-import {
-  StyledCard,
-  StyledParagraph,
-  StyledTextPart,
-  StyledTitle,
-} from "./styles";
+import { HomePageExpandableSection } from './HomePageExpandableSection';
+import { StyledCard, StyledParagraph, StyledTextPart, StyledTitle } from './styles';
 
 export const HomePageSectionCard = () => {
   return (

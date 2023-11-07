@@ -1,12 +1,12 @@
-import { Col, Row } from "antd";
-import { colors } from "config/colors";
-import { gutter, minTileWidth, gridSize, tiles } from "config/constants";
-import { icons } from "config/icons";
-import { useEffect, useState } from "react";
+import { Col, Row } from 'antd';
+import { colors } from 'config/colors';
+import { gridSize, gutter, minTileWidth, tiles } from 'config/constants';
+import { icons } from 'config/icons';
+import { useEffect, useState } from 'react';
 
-import { HomePageTile } from "./HomePageTile";
-import { Icon } from "./Icon";
-import { StyledExtendButton, StyledText } from "./styles";
+import { HomePageTile } from './HomePageTile';
+import { Icon } from './Icon';
+import { StyledExtendButton, StyledText } from './styles';
 
 export const HomePageExpandableSection = () => {
   const [isExpanded, setIsExpanded] = useState(false);

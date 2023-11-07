@@ -1,6 +1,7 @@
-import { colors } from "config/colors";
-import { Icon } from "./Icon";
-import { StyledButton, StyledText } from "./styles";
+import { colors } from 'config/colors';
+
+import { Icon } from './Icon';
+import { StyledButton, StyledText } from './styles';
 
 export type TileProps = {
   type: JSX.Element;

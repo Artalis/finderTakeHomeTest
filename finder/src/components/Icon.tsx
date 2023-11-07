@@ -1,6 +1,6 @@
-import * as React from "react";
+import * as React from 'react';
 
-import { IconProps } from "@phosphor-icons/react";
+import { IconProps } from '@phosphor-icons/react';
 
 export type PhosphorIconProps = Omit<IconProps, "type"> & {
   type: JSX.Element;

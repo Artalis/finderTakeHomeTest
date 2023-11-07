@@ -1,9 +1,8 @@
-import { Button, Typography } from "antd";
+import { Button, Typography } from 'antd';
+import { colors } from 'config/colors';
+import { minTileWidth } from 'config/constants';
 
-import styled from "@emotion/styled";
-
-import { colors } from "config/colors";
-import { minTileWidth } from "config/constants";
+import styled from '@emotion/styled';
 
 const { Title, Paragraph } = Typography;
 
